@@ -1,0 +1,265 @@
+// 绑定设备
+.bind-device-wrap{
+  position relative;
+  height 100vh;
+  background: #4272FF;
+  overflow: auto;
+}
+.bind-device-nav-a{
+  background: #fff;
+  float left;
+  width 50%;
+  text-align: center;
+  padding-top: 16px;
+}
+.bind-device-nav-a span{
+  font-size: 14px;
+  color: #34414C;
+}
+.bind-device-nav-a.on span{
+  color: #4272FF;
+}
+.bind-device-nav-line{
+  width 18px;
+  height 2px;
+  background: #4272FF
+  margin: 6px auto 0;
+  opacity 0;
+}
+.bind-device-nav-a.on .bind-device-nav-line{
+  opacity 1
+}
+.bind-device-in{
+  padding: 1px 16px 16px;
+  background: #fff;
+  border-radius: 0px 0px 24px 24px;
+}
+.bind-device-box{
+  position relative;
+  margin-top: 16px;
+}
+.bind-device-input{
+  box-sizing: border-box;
+  width 100%;
+  background: #F1F1F2;
+  border-radius: 36px;
+  height 36px;
+  padding: 0 16px;
+  appearance none
+  padding-right: 96px;
+  border: 1px solid #F1F1F2;
+}
+.bDevice-operate{
+  position: absolute;
+  top: 0;
+  right 0;
+}
+.bind-device-close{
+  float left;
+  width 36px;
+  height 36px;
+  background: url('../../assets/images/xym/close.png') no-repeat center center;
+  background-size: 24px 24px;
+  cursor pointer;
+}
+.bDevice-operate-line{
+  float left;
+  color: #C2C7CC;
+  margin-top 7px;
+}
+.bDevice-operate-btn{
+  float left;
+  line-height 36px
+  font-size: 16px;
+  color: #4272FF;
+  margin: 0 10px;
+}
+.bind-device-content{
+  padding-top: 16px;
+}
+.bindDevice-no-data{
+  text-align: center;
+  padding-top 20px;
+}
+.bindDevice-no-data img{
+  width 160px;
+}
+.bindDevice-no-data-h{
+  font-size: 18px;
+  color: rgba(255,255,255,0.65);
+}
+.bindDevice-no-data-p{
+  font-size: 12px;
+  color: rgba(255,255,255,0.30);
+  margin-top 6px;
+}
+
+.bindDevice-footer{
+  position: fixed;
+  bottom: 0;
+  left 0;
+  width 100%;
+}
+.bindDevice-footer-logo{
+  text-align: center;
+}
+.bindDevice-footer-logo img{
+  width 200px;
+}
+.bindDevice-footer-op{
+  margin-top 16px;
+}
+.bindDevice-footer-btn{
+  float left;
+  width 50%;
+  height 48px;
+  line-height 48px;
+  font-size: 18px;
+  text-align: center;
+}
+.bindDevice-footer-btn-red{
+  color: #FFFFFF;
+  background-image: linear-gradient(90deg, #FC3132 0%, #F67356 97%);
+  box-shadow: 0 15px 30px -12px rgba(255,107,66,0.45);
+}
+.bindDevice-footer-btn-white{
+  color: #4272FF;
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #E0E8FF 100%);
+  box-shadow: 0 15px 30px -12px rgba(66,114,255,0.45);
+}
+.bDevice-info-title{
+ text-align: center;
+ padding-top 20px;
+}
+.bDevice-info-title-h{
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.bDevice-info-title-p{
+  font-size: 16px;
+  color: rgba(255,255,255,0.65);
+}
+.bDevice-info-cb{
+  padding-top: 20px;
+}
+.bDevice-info-box{
+  box-sizing: border-box;
+  padding: 0 5%;
+  float left;
+  width 33%;
+  margin-top 16px;
+}
+.bDevice-info-box-h{
+  font-size: 12px;
+  color: rgba(255,255,255,0.65);
+}
+.bDevice-info-box-p{
+  font-size: 16px;
+  color: #ffffff;
+  margin-top 5px;
+  overflow hidden;
+  text-overflow: ellipsis;
+  white-space nowrap;
+}
+.bDevice-unit{
+  font-size: 13px;
+}
+
+.password-layout{
+  position: fixed;
+  left 0;
+  top: 0;
+  width: 100%;
+  height 100%;
+  z-index 999;
+}
+.password-layout-bg{
+  position: absolute;
+  top: 0;
+  left 0;
+  height 100%;
+  width 100%;
+  background: rgba(0,0,0,0.5)
+}
+.password-layout-content{
+  position: absolute;
+  top: 50%;
+  left 50%;
+  width 270px;
+  height 230px;
+  margin-left -135px;
+  margin-top: -210px;
+  border-radius: 12px;
+  background: #fff;
+}
+.password-layout-img{
+  text-align: center;
+  margin-top 16px;
+}
+.password-layout-img img{
+  width 62px;
+}
+.password-layout-p{
+  margin-top 10px;
+  font-size: 16px;
+  color: #34414C;
+  line-height 22px;
+  text-align: center;
+}
+.password-layout-enter{
+  position relative;
+  margin-top 14px;
+}
+.password-layout-input{
+  position: absolute;
+  top: 0;
+  left 0;
+  width 100%;
+  height 36px;
+  opacity 0;
+  color: transparent;
+}
+.pLayout-sb{
+  text-align: center;
+}
+.pLayout-span{
+  display inline-block;
+  vertical-align: middle;
+  width 36px;
+  height 36px;
+  line-height 36px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 2px;
+  background: #F9F9F9;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+// 适配
+@media screen and (min-width: 760px) {
+  .bindDevice-footer-op-wrap{
+    width 760px;
+    margin 0 auto;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .bDevice-info-box{
+    padding: 0 7%;
+  }
+  .bDevice-info-box-p{
+    font-size: 18px;
+  }
+  .bDevice-unit{
+    font-size: 15px;
+  }
+}
